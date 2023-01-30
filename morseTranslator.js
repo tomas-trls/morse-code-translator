@@ -37,8 +37,6 @@ export const morseToEnglish = (morseCode) => {
       for (const key in morse) {
         if (code == morse[key]) {
           return key;
-        } else if (code == key) {
-          return "Please add morse code and not a letter";
         }
       }
     });
