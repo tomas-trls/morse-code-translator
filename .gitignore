@@ -1,0 +1,5 @@
+./.vscode
+./node_modules
+babel.config.js
+style.css.map
+style.scss
