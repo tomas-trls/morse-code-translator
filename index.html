@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morse Code Translator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="translator">
+      <label for="translatorMode">Choose your translation mode:</label>
+      <select
+        name="translatorMode"
+        id="translatorMode"
+        class="translator__selector"
+      >
+        <option value="english">English to Morse</option>
+        <option value="morse">Morse to English</option>
+      </select>
+      <input type="text" name="" id="input" class="translator__input" />
+      <div id="translator__output" class="translator__output"></div>
+    </form>
+
+    <script src="morseTranslator.js" type="module"></script>
+  </body>
+</html>
